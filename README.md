@@ -13,7 +13,7 @@
 ## Технологии
 
 - **PHP 8.2 (FPM)**
-- **Laravel 11**
+- **Laravel 12**
 - **PostgreSQL 15**
 - **Nginx (Alpine)**
 - **Docker Compose**
