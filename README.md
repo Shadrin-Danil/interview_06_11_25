@@ -26,7 +26,7 @@
 1. **Склонировать репозиторий**
    ```bash  
    git clone https://github.com/Shadrin-Danil/interview_06_11_25.git  
-   cd <repo>  
+   cd interview_06_11_25 
    ```
 
 2. **Собрать и запустить контейнеры**
