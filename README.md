@@ -71,23 +71,23 @@ php artisan migrate
 ---
  
 ## Структура проекта
- 
-project-root/ 
-├── src/ # Laravel приложение 
-│ ├── app/Http/Controllers/ # Контроллеры API 
-│ │ ├── Api/ 
-│ │ │ ├── BaseAPIController.php 
-│ │ │ ├── TransactionController.php 
-│ │ │ └── UserController.php 
-│ ├── database/ 
-│ │ └── migrations/ # Миграции users и transactions 
-│ └── routes/ 
-│ └── api.php # Маршруты API 
-│ 
-├── docker-compose.yml # Основной конфиг Docker 
-├── Dockerfile # Образ PHP-FPM 
-└── nginx/conf.d/default.conf # Конфигурация nginx 
- 
+
+project-root/
+├── src/                        # Laravel приложение
+│   ├── app/Http/Controllers/   # Контроллеры API
+│   │   ├── Api/
+│   │   │   ├── BaseAPIController.php
+│   │   │   ├── TransactionController.php
+│   │   │   └── UserController.php
+│   ├── database/
+│   │   └── migrations/         # Миграции users и transactions
+│   └── routes/
+│       └── api.php             # Маршруты API
+│
+├── docker-compose.yml          # Основной конфиг Docker
+├── Dockerfile                  # Образ PHP-FPM
+└── nginx/conf.d/default.conf   # Конфигурация nginx
+
 ---
  
 ## API запросы и ответы
