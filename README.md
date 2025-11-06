@@ -25,7 +25,7 @@
 
 1. **Склонировать репозиторий**
    ```bash  
-   git clone https://github.com/<your-org>/<repo>.git  
+   git clone https://github.com/Shadrin-Danil/interview_06_11_25.git  
    cd <repo>  
    ```
 
