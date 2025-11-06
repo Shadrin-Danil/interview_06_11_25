@@ -12,3 +12,7 @@ Route::get('/status', function () {
 
 
 Route::get('/balance', [UserController::class, 'balance'])->name('balance');
+
+Route::post('/deposit', [TransactionController::class, 'deposit'])->name('deposit');
+Route::post('/withdraw', [TransactionController::class, 'withdraw'])->name('withdraw');
+Route::post('/transfer', [TransactionController::class, 'transfer'])->name('transfer');

@@ -17,7 +17,6 @@ class UserController extends BaseAPIController
             // 'user_id' => 'required|exists:users,id',
         ], [
             'user_id.required' => 'user_id обязателен',
-            // 'user_id.exists' => 'такого user_id нет',
         ]);
 
         if ($validated->fails()) {
@@ -33,7 +32,7 @@ class UserController extends BaseAPIController
       
         return $this->sendResponse(
             ['balance' => $user->balance ?? 0],
-            'Баланс пользователя успешно получен.'
+            'Баланс пользователя успешно получен'
         );
     }
     

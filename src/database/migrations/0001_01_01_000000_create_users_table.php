@@ -11,7 +11,8 @@ return new class extends Migration
     {
         if (! Schema::hasTable('users')) {
             Schema::create('users', function (Blueprint $table) {
-                $table->id();
+                // $table->id();
+                $table->unsignedBigInteger('id')->primary(); 
                 $table->decimal('balance', 12, 2)->default(0)->comment('Баланс');
                 $table->timestamps(); 
             });
