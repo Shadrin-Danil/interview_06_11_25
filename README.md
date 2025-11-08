@@ -64,7 +64,7 @@ QUEUE_CONNECTION=sync
  
 php artisan key:generate  
  
-7. **Сгенерировать ключ приложения**
+7. **Провести миграции**
  
 php artisan migrate  
  
